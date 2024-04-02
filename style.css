@@ -1,0 +1,165 @@
+  * {
+      margin: 0%;
+      font-family: "Nunito Sans", sans-serif;
+  }
+
+  header {
+      color: white;
+      background-color: #9f3647;
+  }
+
+  main {
+      text-align: center;
+  }
+
+  footer {
+      color: white;
+      background-color: #9f3647;
+      text-align: center;
+  }
+
+
+  .tituloPrincipal {
+      background-image: url('https://giselemilagros88.github.io/cac_movies_javaphp/assets/img/banner-bg.jpg  ');
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 90vh;
+      margin-bottom: 1rem;
+  }
+
+  .tit1 {
+      color: white;
+      font-size: 4rem;
+      font-weight: 700;
+  }
+
+  .tit2 {
+      color: white;
+      font-size: 3rem;
+      font-weight: 700;
+  }
+
+  .sectionBuscando {
+      background-color: #181419;
+      color: white;
+      font-size: 2rem;
+      font-weight: 700;
+      padding: 180px;
+
+  }
+
+  .sectionTendencia {
+      background-color: #181419;
+      color: white;
+      font-size: 2rem;
+      font-weight: 700;
+      padding: 18px;
+  }
+
+  .sectionLasmas {
+      background-color: #181419;
+      color: white;
+      font-size: 2rem;
+      font-weight: 700;
+      padding: 18px;
+  }
+
+  .Botones {
+      color: white;
+      background-color: #9f3647;
+      border-radius: 10%;
+      border: solid;
+      text-decoration: none;
+      padding: 10px;
+  }
+
+  .Botones:hover {
+      font-weight: bold;
+      cursor: pointer;
+      border-color: rgba(255, 255, 255, 0.651);
+      padding-left: 16px;
+      padding-right: 16px;
+  }
+
+
+  .cambio-inline {
+      display: inline;
+      color: white;
+      padding: 8px;
+
+  }
+
+  .cambio-inline li {
+      display: inline;
+      color: white;
+      padding: 8px;
+  }
+
+  .cambio-inline li a {
+      display: inline;
+      color: white;
+      text-decoration: none;
+  }
+
+  .cambio-inline li a:hover {
+      color: whitesmoke;
+      font-weight: bold;
+      cursor: pointer;
+      border: solid;
+      border-radius: 10%;
+      border-color: rgba(255, 255, 255, 0.651);
+
+  }
+
+  .navego a {
+      color: white;
+      background-color: #9f3647;
+      margin: 8px;
+      padding: 10px;
+      border: solid;
+      border-radius: 10%;
+      border-color: #a85e6a79;
+  }
+
+  .navego a:hover {
+      color: whitesmoke;
+      font-weight: bold;
+      cursor: pointer;
+      border-color: rgba(255, 255, 255, 0.651);
+  }
+
+  #soloAd {
+      color: whitesmoke;
+      font-weight: bold;
+      cursor: pointer;
+      border-color: #9daa5279;
+  }
+
+  #soloAd:hover {
+      color: whitesmoke;
+      font-weight: bold;
+      cursor: pointer;
+      border-color: #a6c20879;
+  }
+
+  .imagTendencia {
+      border-radius: 10%;
+      margin: 20px;
+      border: solid;
+  }
+
+  .imagTendencia:hover {
+      border-color: rgba(108, 179, 179, 0.685);
+  }
+
+  .imagAclamada {
+      border-radius: 10%;
+      margin: 20px;
+      border: solid;
+  }
+
+  .imagAclamada:hover {
+      border-color: rgba(179, 108, 138, 0.685);
+  }
+  
