@@ -18,6 +18,54 @@
       text-align: center;
   }
 
+  .claLogo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 10px;
+      
+  }
+  .claLogo:hover{
+    color:burlywood;
+     
+    
+    
+}
+
+  .container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+
+  }
+ 
+  .cambio-inline {
+      display: inline;
+       
+  }
+
+  .cambio-inline li {
+      display: inline-block;
+       
+  }
+
+  .cambio-inline li a {
+      display: inline;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+  }
+
+  .cambio-inline li a:hover {
+      color: whitesmoke;
+      font-weight: bold;
+      cursor: pointer;
+      border: solid;
+      border-radius: 12px;
+      border-color: rgba(255, 255, 255, 0.651);
+
+  }
 
   .tituloPrincipal {
       background-image: url('https://giselemilagros88.github.io/cac_movies_javaphp/assets/img/banner-bg.jpg  ');
@@ -48,13 +96,17 @@
       padding: 180px;
 
   }
-
+.flex-container{
+    display: flex;
+    align-items: center;
+}
   .sectionTendencia {
       background-color: #181419;
       color: white;
       font-size: 2rem;
       font-weight: 700;
       padding: 18px;
+     
   }
 
   .sectionLasmas {
@@ -83,42 +135,15 @@
   }
 
 
-  .cambio-inline {
-      display: inline;
-      color: white;
-      padding: 8px;
 
-  }
-
-  .cambio-inline li {
-      display: inline;
-      color: white;
-      padding: 8px;
-  }
-
-  .cambio-inline li a {
-      display: inline;
-      color: white;
-      text-decoration: none;
-  }
-
-  .cambio-inline li a:hover {
-      color: whitesmoke;
-      font-weight: bold;
-      cursor: pointer;
-      border: solid;
-      border-radius: 10%;
-      border-color: rgba(255, 255, 255, 0.651);
-
-  }
 
   .navego a {
       color: white;
       background-color: #9f3647;
-      margin: 8px;
+      margin: 18px;
       padding: 10px;
       border: solid;
-      border-radius: 10%;
+      border-radius: 12px;
       border-color: #a85e6a79;
   }
 
@@ -126,7 +151,7 @@
       color: whitesmoke;
       font-weight: bold;
       cursor: pointer;
-      border-color: rgba(255, 255, 255, 0.651);
+      border-color: rgba(219, 15, 128, 0.651);
   }
 
   #soloAd {
@@ -147,11 +172,18 @@
       border-radius: 10%;
       margin: 20px;
       border: solid;
+      border-color: rgba(108, 179, 179, 0.685);
   }
 
   .imagTendencia:hover {
-      border-color: rgba(108, 179, 179, 0.685);
-  }
+      border-color:rgba(255, 255, 255, 0.986);
+     border-style:dotted;
+     border-width: 3px;
+      
+      
+       
+       
+  }  
 
   .imagAclamada {
       border-radius: 10%;
@@ -162,4 +194,3 @@
   .imagAclamada:hover {
       border-color: rgba(179, 108, 138, 0.685);
   }
-  
