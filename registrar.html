@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h3>hola probando</h3>
+
+<body class="bodyRegistrarse">
+    <header>
+        <h2>CAC-Movies></h2> 
+    </header>
+   
+    
+    
+    <main id="main" class="main">
+        <section class="seccionRegistrarse">
+
+   
+    <form action=" " method="get">
+        <h2> Registro</h2><br>
+        <div>
+            <input type="text" placeholder="Nombre" id="nombre" name="Nombre">
+            <div class="error-text"></div>
+        </div>
+        <div>
+            <input type="text" placeholder="Apellido" id="apellido" name="Apellido">
+            <div class="error-text"></div>
+        </div>
+        <div>
+            <input type="email" placeholder="Email" id="email" name="Email">
+            <div class="error-text"></div>
+        </div>
+        <div>
+            <input type="password" placeholder="Password" id="password" name="Password">
+            <div class="error-text"></div>
+        </div>
+        <div>
+            <select name="Pais" id="pais">
+                <option value="">Pais</option>
+                <option value=" AR">Argentina</option>
+                <option value=" RL">Resto Latinoamérica</option>
+                <option value=" EU">Estados Unidos</option>
+                <option value=" Otros">Otros</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" id="terminos">
+            <label for="terminos">Acepto términos y condiciones</label>
+
+        </div>
+        <div>
+            <input class="boton" type="submit" value ="Registrarse">
+        </div>
+    </section>
+    </main>
+
 </body>
+
 </html>
